@@ -1,0 +1,27 @@
+import React from 'react';
+import { View, Text,ToucheableOpacity, TextInput  } from 'react-native';
+
+export default function Login(){
+    return (
+        <React.Fragment>
+            <View>
+
+            <View>
+                <Text>Minhas Tarefas</Text>
+            </View>
+
+        <View>
+            <TextInput placeholder="email"/>
+            <TextInput placeholder="senha"/>
+            <ToucheableOpacity>
+                <Text>Acessar</Text>
+            </ToucheableOpacity>
+            <ToucheableOpacity>
+                <Text>Registrar</Text>
+            </ToucheableOpacity>
+        </View>
+        </View>
+
+        </React.Fragment>
+    )
+}
